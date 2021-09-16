@@ -1,0 +1,514 @@
+{
+    "颜文字": {
+        "type": "emoticon",
+        "container": [
+                {
+                    "icon": "OωO",
+                    "text": "owo"
+                },
+                {
+                    "icon": "|´・ω・)ノ",
+                    "text": "Hi"
+                },
+                {
+                    "icon": "ヾ(≧∇≦*)ゝ",
+                    "text": "开心"
+                },
+                {
+                    "icon": "(☆ω☆)",
+                    "text": "星星眼"
+                },
+                {
+                    "icon": "（╯‵□′）╯︵┴─┴",
+                    "text": "掀桌"
+                },
+                {
+                    "icon": "￣﹃￣",
+                    "text": "流口水"
+                },
+                {
+                    "icon": "(/ω＼)",
+                    "text": "捂脸"
+                },
+                {
+                    "icon": "∠( ᐛ 」∠)＿",
+                    "text": "给跪"
+                },
+                {
+                    "icon": "(๑•̀ㅁ•́ฅ)",
+                    "text": "Hi"
+                },
+                {
+                    "icon": "→_→",
+                    "text": "斜眼"
+                },
+                {
+                    "icon": "୧(๑•̀⌄•́๑)૭",
+                    "text": "加油"
+                },
+                {
+                    "icon": "٩(ˊᗜˋ*)و",
+                    "text": "有木有WiFi"
+                },
+                {
+                    "icon": "(ノ°ο°)ノ",
+                    "text": "前方高能预警"
+                },
+                {
+                    "icon": "(´இ皿இ｀)",
+                    "text": "我从未见过如此厚颜无耻之人"
+                },
+                {
+                    "icon": "⌇●﹏●⌇",
+                    "text": "吓死宝宝惹"
+                },
+                {
+                    "icon": "(ฅ´ω`ฅ)",
+                    "text": "已阅留爪"
+                },
+                {
+                    "icon": "(╯°A°)╯︵○○○",
+                    "text": "去吧大师球"
+                },
+                {
+                    "icon": "φ(￣∇￣o)",
+                    "text": "太萌惹"
+                },
+                {
+                    "icon": "ヾ(´･ ･｀｡)ノ\"",
+                    "text": "咦咦咦"
+                },
+                {
+                    "icon": "( ง ᵒ̌皿ᵒ̌)ง⁼³₌₃",
+                    "text": "气呼呼"
+                },
+                {
+                    "icon": "(ó﹏ò｡)",
+                    "text": "我受到了惊吓"
+                },
+                {
+                    "icon": "Σ(っ °Д °;)っ",
+                    "text": "什么鬼"
+                },
+                {
+                    "icon": "( ,,´･ω･)ﾉ\"(´っω･｀｡)",
+                    "text": "摸摸头"
+                },
+                {
+                    "icon": "╮(╯▽╰)╭ ",
+                    "text": "无奈"
+                },
+                {
+                    "icon": "o(*////▽////*)q ",
+                    "text": "脸红"
+                },
+                {
+                    "icon": "＞﹏＜",
+                    "text": ""
+                },
+                {
+                    "icon": "( ๑´•ω•) \"(ㆆᴗㆆ)",
+                    "text": ""
+                },
+                {
+                    "icon": "(｡•ˇ‸ˇ•｡)",
+                    "text": ""
+                }
+        ]
+    },
+    "Emoji": {
+        "type": "emoji",
+        "container": [
+            {
+                "icon": "😂",
+                "text": ""
+            },
+            {
+                "icon": "😀",
+                "text": ""
+            },
+            {
+                "icon": "😅",
+                "text": ""
+            },
+            {
+                "icon": "😊",
+                "text": ""
+            },
+            {
+                "icon": "🙂",
+                "text": ""
+            },
+            {
+                "icon": "🙃",
+                "text": ""
+            },
+            {
+                "icon": "😌",
+                "text": ""
+            },
+            {
+                "icon": "😍",
+                "text": ""
+            },
+            {
+                "icon": "😘 ",
+                "text": ""
+            },
+            {
+                "icon": "😜",
+                "text": ""
+            },
+            {
+                "icon": "😝",
+                "text": ""
+            },
+            {
+                "icon": "😏",
+                "text": ""
+            },
+            {
+                "icon": "😒",
+                "text": ""
+            },
+            {
+                "icon": "🙄",
+                "text": ""
+            },
+            {
+                "icon": "😳 ",
+                "text": ""
+            },
+            {
+                "icon": "😡",
+                "text": ""
+            },
+            {
+                "icon": "😔",
+                "text": ""
+            },
+            {
+                "icon": "😫",
+                "text": ""
+            },
+            {
+                "icon": "😱",
+                "text": ""
+            },
+            {
+                "icon": "😭",
+                "text": ""
+            },
+            {
+                "icon": "💩",
+                "text": ""
+            },
+            {
+                "icon": "👻",
+                "text": ""
+            },
+            {
+                "icon": "🙌",
+                "text": ""
+            },
+            {
+                "icon": "🖕",
+                "text": ""
+            },
+            {
+                "icon": "👍",
+                "text": ""
+            },
+            {
+                "icon": "👫",
+                "text": ""
+            },
+            {
+                "icon": "👬",
+                "text": ""
+            },
+            {
+                "icon": "👭",
+                "text": ""
+            },
+            {
+                "icon": "🌚",
+                "text": ""
+            },
+            {
+                "icon": "🌝",
+                "text": ""
+            },
+            {
+                "icon": "🙈",
+                "text": ""
+            },
+            {
+                "icon": "💊",
+                "text": ""
+            },
+            {
+                "icon": "😶",
+                "text": ""
+            },
+            {
+                "icon": "🙏",
+                "text": ""
+            },
+            {
+                "icon": "🍦",
+                "text": ""
+            },
+            {
+                "icon": "🍉",
+                "text": ""
+            },
+            {
+                "icon": "😣",
+                "text": ""
+            }
+        ]
+    },
+    "阿鲁": {
+        "type": "image",
+        "container": [
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/a.png\">",
+                "text": "face1"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/b.png\">",
+                "text": "face2"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/c.png\">",
+                "text": "face3"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/d.png\">",
+                "text": "face4"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/e.png\">",
+                "text": "face5"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/f.png\">",
+                "text": "face6"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/g.png\">",
+                "text": "face7"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/h.png\">",
+                "text": "face8"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/i.png\">",
+                "text": "face9"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/j.png\">",
+                "text": "face10"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/k.png\">",
+                "text": "face11"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/l.png\">",
+                "text": "face12"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/m.png\">",
+                "text": "face13"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/n.png\">",
+                "text": "face14"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/o.png\">",
+                "text": "face1"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/p.png\">",
+                "text": "face1"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/q.png\">",
+                "text": "face1"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/r.png\">",
+                "text": "face1"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/s.png\">",
+                "text": "face1"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/t.png\">",
+                "text": "face1"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/u.png\">",
+                "text": "face1"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/v.png\">",
+                "text": "face1"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/w.png\">",
+                "text": "face1"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/x.png\">",
+                "text": "face1"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/y.png\">",
+                "text": "face1"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/z.png\">",
+                "text": "face1"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/1.png\">",
+                "text": "face1"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/2.png\">",
+                "text": "face1"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/3.png\">",
+                "text": "face1"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/4.png\">",
+                "text": "face1"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/5.png\">",
+                "text": "face1"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/6.png\">",
+                "text": "face1"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/7.png\">",
+                "text": "face1"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/8.png\">",
+                "text": "face1"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/9.png\">",
+                "text": "face1"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/10.png\">",
+                "text": "face1"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/11.png\">",
+                "text": "face1"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/12.png\">",
+                "text": "face1"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/13.png\">",
+                "text": "face1"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/14.png\">",
+                "text": "face1"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/15.png\">",
+                "text": "face1"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/16.png\">",
+                "text": "face1"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/17.png\">",
+                "text": "face1"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/18.png\">",
+                "text": "face1"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/19.png\">",
+                "text": "face1"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/20.png\">",
+                "text": "face1"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/21.png\">",
+                "text": "face1"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/22.png\">",
+                "text": "face1"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/23.png\">",
+                "text": "face1"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/24.png\">",
+                "text": "face1"
+            },
+            {
+                "icon": "<img src=\"/usr/themes/default/assets/owo/pic/aru/25.png\">",
+                "text": "face1"
+            }
+        ]
+    },
+    "泡泡": {
+        "type": "image",
+        "container": [
+            {
+                "icon": "<img src=\"//o5mvhz1ad.qnssl.com/jz1.jpg\">",
+                "text": "face1"
+            },
+            {
+                "icon": "<img src=\"//o5mvhz1ad.qnssl.com/jz2.gif\">",
+                "text": "face2"
+            },
+            {
+                "icon": "<img src=\"//o5mvhz1ad.qnssl.com/jz3.gif\">",
+                "text": "face3"
+            },
+            {
+                "icon": "<img src=\"//o5mvhz1ad.qnssl.com/jz4.gif\">",
+                "text": "face4"
+            },
+            {
+                "icon": "<img src=\"//o5mvhz1ad.qnssl.com/jz5.jpg\">",
+                "text": "face5"
+            },
+            {
+                "icon": "<img src=\"//o5mvhz1ad.qnssl.com/jz6.gif\">",
+                "text": "face6"
+            },
+            {
+                "icon": "<img src=\"//o5mvhz1ad.qnssl.com/jz7.jpg\">",
+                "text": "face6"
+            }
+        ]
+    }
+}
