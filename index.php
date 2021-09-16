@@ -5,7 +5,7 @@
  * @package Protium for Typecho
  * @author Link
  * @version 1.2.0
- * @link http://typecho.org
+ * @link https://atlinker.cn
  */
 
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
