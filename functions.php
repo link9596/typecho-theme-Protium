@@ -29,7 +29,7 @@ $pjax = new Typecho_Widget_Helper_Form_Element_Checkbox('pjax',
       ),
     array('InstantClick') ,
     _t('Instantclick预加载'),
-    _t('Instantclick利用无刷新和预加载技术，提高网页加载速度，为了兼容性，主题已默认强制关闭反垃圾保护'));
+    _t('Instantclick利用无刷新和预加载技术，提高网页加载速度，为了兼容性，主题已默认强制关闭反垃圾保护<br><strong>此功能可能与一些JS插件冲突，如JS出现运行故障，请尝试关闭此选项来排除问题</strong>'));
     $form->addInput($pjax->multiMode()); 
 
 
