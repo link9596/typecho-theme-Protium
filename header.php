@@ -7,6 +7,7 @@
     <meta name="renderer" content="webkit">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="theme-color" content="<?php if ($this->options->navcolor): ?><?php $this->options->navcolor() ?><?php else: ?>#3F51B5<?php endif; ?>">
+    <link rel="shortcut icon" sizes="128x128" href="<?php $this->options->themeUrl('/assets/icon/favicon.png'); ?>">
     <title><?php $this->archiveTitle(array(
             'category'  =>  _t('分类 %s 下的文章'),
             'search'    =>  _t('包含关键字 %s 的文章'),
