@@ -55,7 +55,7 @@ var _hmt = _hmt || [];
       <a style="<?php if ($this->options->navtone): ?>color:#222<?php else: ?><?php endif; ?>" class="site-title" href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title() ?></a>
 <?php endif; ?>
       <nav class="site-nav line">
-        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <input onclick="checkit(this.checked)" type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label class="ripple" for="nav-trigger">
           <span class="menu-icon">
             <svg viewBox="0 0 18 15" width="18px" height="15px">
