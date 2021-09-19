@@ -7,6 +7,7 @@
 <script src="<?php $this->options->themeUrl('/assets/js/click.js'); ?>" data-no-instant></script>
     <script data-no-instant>
         InstantClick.on('change', function (isInitialLoad) {
+            document.getElementById('fold').style.height='0px';//初始化
             if (isInitialLoad === false) {
                 if (typeof Prism !== 'undefined') Prism.highlightAll(true, null);
             if (typeof _hmt !== 'undefined') 
@@ -50,6 +51,19 @@
       }
     }
   }
+
+    window.onload=function(){
+      document.getElementById('fold').style.height='0px';//初始化
+}
+    function clean(){
+      document.getElementById('fold').style.height='0px';
+}
+    function checkit(isChecked){
+     if(isChecked)
+       document.getElementById('fold').style.height='auto';
+     else
+       window.setTimeout(clean, 500);
+}
       </script>
 <script>
 var _hmt = _hmt || [];
