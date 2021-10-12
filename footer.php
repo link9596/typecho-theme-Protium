@@ -5,9 +5,10 @@
 </div><!-- end #body -->
 <?php if (!empty($this->options->pjax) && in_array('InstantClick', $this->options->pjax)): ?>
 <script src="<?php $this->options->themeUrl('/assets/js/click.js'); ?>" data-no-instant></script>
+<?php if ($this->options->highlight): ?><script src="<?php $this->options->themeUrl('/assets/js/prism-ext.js'); ?>" data-no-instant></script><?php else: ?><script src="<?php $this->options->themeUrl('/assets/js/prism.js'); ?>" data-no-instant></script><?php endif; ?>
     <script data-no-instant>
         InstantClick.on('change', function (isInitialLoad) {
-            document.getElementById('fold').style.height='0px';//初始化
+document.getElementById('fold').style.height='0px';//初始化
             if (isInitialLoad === false) {
                 if (typeof Prism !== 'undefined') Prism.highlightAll(true, null);
             if (typeof _hmt !== 'undefined') 
@@ -52,17 +53,17 @@
     }
   }
 
-    window.onload=function(){
-      document.getElementById('fold').style.height='0px';//初始化
+window.onload=function(){
+document.getElementById('fold').style.height='0px';//初始化
 }
-    function clean(){
-      document.getElementById('fold').style.height='0px';
+function clean(){  document.getElementById('fold').style.height='0px';
 }
-    function checkit(isChecked){
-     if(isChecked)
-       document.getElementById('fold').style.height='auto';
-     else
-       window.setTimeout(clean, 500);
+
+function checkit(isChecked){
+ if(isChecked)
+document.getElementById('fold').style.height='auto';
+ else
+  window.setTimeout(clean, 500);
 }
       </script>
 <script>
