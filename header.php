@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="renderer" content="webkit">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="theme-color" content="<?php if ($this->options->navcolor): ?><?php $this->options->navcolor() ?><?php else: ?>#3F51B5<?php endif; ?>">
     <link rel="shortcut icon" sizes="128x128" href="<?php $this->options->themeUrl('/assets/icon/favicon.png'); ?>">
+    <meta name="theme-color" content="<?php if ($this->options->navcolor): ?><?php $this->options->navcolor() ?><?php else: ?>#3F51B5<?php endif; ?>">
     <title><?php $this->archiveTitle(array(
             'category'  =>  _t('分类 %s 下的文章'),
             'search'    =>  _t('包含关键字 %s 的文章'),
@@ -17,6 +17,17 @@
 
     <!-- 使用url函数转换相关路径 -->
     <link rel="stylesheet" href="<?php $this->options->themeUrl('styles.css'); ?>">
+    <link rel="stylesheet" href="<?php $this->options->themeUrl('assets/css/prism.css'); ?>">
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?d630b59add775a31d2b046bbcc270d67";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
 
     <!--[if lt IE 9]>
     <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
@@ -55,7 +66,7 @@
           </span>
         </label>
 
-        <div class="trigger">
+        <div id="fold" class="trigger">
                 <?php $this->widget('Widget_Contents_Page_List')->to($pages); ?>
                     <?php while($pages->next()): ?>
                     <a class="page-link" <?php if($this->is('page', $pages->slug)): ?> "<?php endif; ?> href="<?php $pages->permalink(); ?>" title="<?php $pages->title(); ?>"><?php $pages->title(); ?></a>
