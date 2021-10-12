@@ -23,6 +23,12 @@ function themeConfig($form) {
     ), '0', _t('导航栏色调'), '导航栏文字以及图标的基础色调');
     $form->addInput($navtone);
 
+    $highlight = new Typecho_Widget_Helper_Form_Element_Select('highlight', array(
+        '0' => '精简版',
+        '1' => '完整版'
+    ), '0', _t('代码高亮版本'), '<strong>精简版(20kb)支持：<br></strong>Markup+HTML+XML+SVG+MathML+SSML+Atom+RSS+CSS+C-like+JavaScript<br><strong>完整版(50kb)支持：</strong><br>精简版+Basic+C+Csharp+cpp+Git+Java+Json+less+Markup-templating+PHP+PHP-extras+Powershell+Python+Ruby');
+    $form->addInput($highlight);
+
 $pjax = new Typecho_Widget_Helper_Form_Element_Checkbox('pjax',
     array(
       'InstantClick' => _t('启用Instantclick预加载'),
