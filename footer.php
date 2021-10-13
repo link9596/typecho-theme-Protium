@@ -3,9 +3,11 @@
         </div><!-- end .row -->
     </div>
 </div><!-- end #body -->
+
+<?php if ($this->options->highlight): ?><script src="<?php $this->options->themeUrl('/assets/js/prism-ext.js'); ?>" data-no-instant></script><?php else: ?><script src="<?php $this->options->themeUrl('/assets/js/prism.js'); ?>" data-no-instant></script><?php endif; ?>
+
 <?php if (!empty($this->options->pjax) && in_array('InstantClick', $this->options->pjax)): ?>
 <script src="<?php $this->options->themeUrl('/assets/js/click.js'); ?>" data-no-instant></script>
-<?php if ($this->options->highlight): ?><script src="<?php $this->options->themeUrl('/assets/js/prism-ext.js'); ?>" data-no-instant></script><?php else: ?><script src="<?php $this->options->themeUrl('/assets/js/prism.js'); ?>" data-no-instant></script><?php endif; ?>
     <script data-no-instant>
         InstantClick.on('change', function (isInitialLoad) {
 document.getElementById('fold').style.height='0px';//初始化
