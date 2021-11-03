@@ -1170,6 +1170,52 @@ height:auto;
     left: -50px
 }
 
+.form-group {
+  position: relative;
+  font-size: 15px;
+  color: #CFD8DC;
+}
+.form-group + .form-group {
+  margin-top: 30px;
+}
+.form-group .form-label {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 5px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-appearance:none;
+}
+.form-group .form-control {
+  width: 100%;
+  position: relative;
+  z-index: 3;
+  height: 35px;
+  background: none;
+  border: none;
+  padding: 5px 0;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  border-bottom: 2px solid #CFD8DC;
+}
+.form-group .form-control:invalid {
+  outline: none;
+}
+.form-group .form-control:focus, .form-group .form-control:valid {
+  outline: none;
+  color: #37474F;
+  box-shadow: 0 1px #FF4081;
+  border-color: #FF4081;
+}
+.form-group .form-control:focus + .form-label, .form-group .form-control:valid + .form-label {
+  font-size: 12px;
+  -ms-transform: translateY(-20px);
+  -webkit-transform: translateY(-20px);
+  transform: translateY(-20px);
+  color: #E91E63;
+}
+
 * {
     box-sizing: border-box
 }
@@ -1606,7 +1652,7 @@ a:hover {
 @-webkit-keyframes fade-in-down {
   from {
     opacity: 0;
-    -webkit-transform: translateY(30px);
+    -webkit-transform: translateY(68px);
   }
   to {
     opacity: 1;
@@ -1617,7 +1663,7 @@ a:hover {
 @keyframes fade-in-down {
   from {
     opacity: 0;
-    transform: translateY(30px); }
+    transform: translateY(68px); }
   to {
     opacity: 1;
     transform: translateY(0);
@@ -1648,8 +1694,8 @@ a:hover {
 }
 
 .fade{
-  -webkit-animation: fade-in-down 0.5s;
-  animation: fade-in-down 0.5s;
+  -webkit-animation: fade-in-down 0.6s ease;
+  animation: fade-in-down 0.6s ease;
 }
 
 .OwO-open{
