@@ -18,6 +18,7 @@
     <!-- 使用url函数转换相关路径 -->
     <link rel="stylesheet" href="<?php $this->options->themeUrl('styles.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('assets/css/prism.css'); ?>">
+    <link rel="stylesheet" href="<?php $this->options->themeUrl('assets/icon/icon.css'); ?>">
 <script>
 var _hmt = _hmt || [];
 (function() {
@@ -93,7 +94,7 @@ var _hmt = _hmt || [];
       <?php if($this->is('index')): ?><h2 class="project-tagline">
 <?php $this->options->description() ?></h2>
 <?php else: ?><h2 class="project-date">
-<time datetime="<?php $this->date('M d , Y');; ?>" itemprop="datePublished"><?php $this->date('M d , Y'); ?></time>
+<?php if ($this->have()): ?><time datetime="<?php $this->date('M d , Y');; ?>" itemprop="datePublished"><?php $this->date('M d , Y'); ?></time><?php else: ?>未找到内容<?php endif; ?>
           • <span class="header-tags" itemprop="name"><?php $this->author(); ?> • <?php $this->category(','); ?></span></span>
         </h2>
 <?php endif; ?>
