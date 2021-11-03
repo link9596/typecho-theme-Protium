@@ -33,15 +33,15 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 <div style="margin-bottom:-35px" class="pagination">
 
       <?php if ($this->_currentPage>1){ ?>
-					<?php $this->pageLink('<span class="cm-l"><img src="https://atlinker.cn/theme/left.svg" style="height:28px;margin-left:12px"></span>'); ?>
+					<?php $this->pageLink('<span class="cm-l"><img src="<?php $this->options->themeUrl('/assets/icon/left.svg'); ?>" style="height:28px;margin-left:12px"></span>'); ?>
 				<?php } else { ?>
-					<span class="cm-l"><img src="https://atlinker.cn/theme/leftdis.svg" style="height:28px;margin-left:12px"></span>
+					<span class="cm-l"><img src="<?php $this->options->themeUrl('/assets/icon/leftdis.svg'); ?>" style="height:28px;margin-left:12px"></span>
 				<?php } ?>
 				<?php $totalpage=ceil($this->getTotal()/$this->parameter->pageSize); ?>
 				<?php if ($this->_currentPage<$totalpage){ ?>
-					<?php $this->pageLink('<span class="cm-r"><img src="https://atlinker.cn/theme/right.svg" style="height:28px;margin-right:14px"></span>','next'); ?>
+					<?php $this->pageLink('<span class="cm-r"><img src="<?php $this->options->themeUrl('/assets/icon/right.svg'); ?>" style="height:28px;margin-right:14px"></span>','next'); ?>
 				<?php } else { ?>
-					<span class="cm-r"><img src="https://atlinker.cn/theme/rightdis.svg" style="height:28px;margin-right:14px"></span>
+					<span class="cm-r"><img src="<?php $this->options->themeUrl('/assets/icon/rightdis.svg'); ?>" style="height:28px;margin-right:14px"></span>
 				<?php } ?>
 			<div class="cm-c"><?php if($this->_currentPage>1) echo $this->_currentPage; else echo 1;?>/<?php echo ceil($this->getTotal() / $this->parameter->pageSize); ?></div>
 </div>
