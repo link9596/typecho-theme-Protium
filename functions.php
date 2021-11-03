@@ -8,7 +8,7 @@ function themeConfig($form) {
     $sticky = new Typecho_Widget_Helper_Form_Element_Text('sticky', NULL,NULL, _t('文章置顶'), _t('输入置顶文章的cid，cid可在文章链接中找到<br>多条置顶请按排序输入, 以英文逗号或空格分隔'));
     $form->addInput($sticky);
 
-    $sitetime = new Typecho_Widget_Helper_Form_Element_Text('sitetime', NULL, NULL, _t('站点建立时间戳'), _t('输入后计算时间显示在博客底部'));
+    $sitetime = new Typecho_Widget_Helper_Form_Element_Text('sitetime', NULL, NULL, _t('站点建立时间戳'), _t('输入后计算时间显示在博客底部 | 将日期转换成<a href="https://tool.lu/timestamp/">时间戳</a>'));
     $form->addInput($sitetime);
 
     $siteimg = new Typecho_Widget_Helper_Form_Element_Text('siteimg', null, null, _t('站点主题图片'), _t('各页面上显示的主题图片'));
@@ -22,6 +22,14 @@ function themeConfig($form) {
         '1' => '深色'
     ), '0', _t('导航栏色调'), '导航栏文字以及图标的基础色调');
     $form->addInput($navtone);
+
+$search = new Typecho_Widget_Helper_Form_Element_Checkbox('search',
+    array(
+      'search' => _t('在主页启用搜索'),
+      ),
+    array('search') ,
+    _t('搜索'));
+    $form->addInput($search->multiMode()); 
 
     $highlight = new Typecho_Widget_Helper_Form_Element_Select('highlight', array(
         '0' => '精简版',
