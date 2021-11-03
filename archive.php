@@ -36,7 +36,21 @@
             </article>
         <?php endif; ?>
 
-        <?php $this->pageNav('&laquo; 前一页', '后一页 &raquo;'); ?>
+        <div style="margin:20px 0px -45px 0px" class="pagination">
+
+      <?php if ($this->_currentPage>1){ ?>
+					<?php $this->pageLink('<span class="cm-l"><img src="/usr/themes/Protium/assets/icon/left.svg" style="height:28px;margin-left:12px"></span>'); ?>
+				<?php } else { ?>
+					<span class="cm-l"><img src="/usr/themes/Protium/assets/icon/leftdis.svg" style="height:28px;margin-left:12px"></span>
+				<?php } ?>
+				<?php $totalpage=ceil($this->getTotal()/$this->parameter->pageSize); ?>
+				<?php if ($this->_currentPage<$totalpage){ ?>
+					<?php $this->pageLink('<span class="cm-r"><img src="/usr/themes/Protium/assets/icon/right.svg" style="height:28px;margin-right:14px"></span>','next'); ?>
+				<?php } else { ?>
+					<span class="cm-r"><img src="/usr/themes/Protium/assets/icon/rightdis.svg" style="height:28px;margin-right:14px"></span>
+				<?php } ?>
+			<div class="cm-c"><?php if($this->_currentPage>1) echo $this->_currentPage; else echo 1;?>/<?php echo ceil($this->getTotal() / $this->parameter->pageSize); ?></div>
+</div>
     </div><!-- end #main -->
 
 	<?php $this->need('footer.php'); ?>
