@@ -3,11 +3,11 @@
         </div><!-- end .row -->
     </div>
 </div><!-- end #body -->
-
 <?php if ($this->options->highlight): ?><script src="<?php $this->options->themeUrl('/assets/js/prism-ext.js'); ?>" data-no-instant></script><?php else: ?><script src="<?php $this->options->themeUrl('/assets/js/prism.js'); ?>" data-no-instant></script><?php endif; ?>
 
 <?php if (!empty($this->options->pjax) && in_array('InstantClick', $this->options->pjax)): ?>
 <script src="<?php $this->options->themeUrl('/assets/js/click.js'); ?>" data-no-instant></script>
+
     <script data-no-instant>
         InstantClick.on('change', function (isInitialLoad) {
 document.getElementById('fold').style.height='0px';//初始化
@@ -54,7 +54,7 @@ document.getElementById('fold').style.height='0px';//初始化
       }
     }
   }
-
+</script><script>
 window.onload=function(){
 document.getElementById('fold').style.height='0px';//初始化
 }
@@ -68,16 +68,6 @@ document.getElementById('fold').style.height='auto';
   window.setTimeout(clean, 500);
 }
       </script>
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?d630b59add775a31d2b046bbcc270d67";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
-
 
 </body>
 </html>
