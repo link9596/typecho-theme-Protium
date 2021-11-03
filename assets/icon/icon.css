@@ -1,0 +1,67 @@
+
+.icon-comment{
+display:inline-block;
+background-position:center center;
+background-repeat:no-repeat;
+background-image:url(/usr/themes/Protium/assets/icon/comment.svg)
+}
+.icon-delete{
+display:inline-block;
+background-position:center center;
+background-repeat:no-repeat;
+background-image:url(/usr/themes/Protium/assets/icon/delete.svg)
+}
+.icon-edit{
+display:inline-block;
+background-position:center center;
+background-repeat:no-repeat;
+background-image:url(/usr/themes/Protium/assets/icon/edit.svg)
+}
+.icon-file{
+display:inline-block;
+background-position:center center;
+background-repeat:no-repeat;
+background-image:url(/usr/themes/Protium/assets/icon/file.svg)
+}
+.icon-light{
+display:inline-block;
+background-position:center center;
+background-repeat:no-repeat;
+background-image:url(/usr/themes/Protium/assets/icon/light.svg)
+}
+.icon-night{
+display:inline-block;
+background-position:center center;
+background-repeat:no-repeat;
+background-image:url(/usr/themes/Protium/assets/icon/night.svg)
+}
+.icon-search{
+display:inline-block;
+background-position:center center;
+background-repeat:no-repeat;
+background-image:url(/usr/themes/Protium/assets/icon/search.svg)
+}
+.icon-send{
+display:inline-block;
+background-position:center center;
+background-repeat:no-repeat;
+background-image:url(/usr/themes/Protium/assets/icon/send.svg)
+}
+.icon-style{
+display:inline-block;
+background-position:center center;
+background-repeat:no-repeat;
+background-image:url(/usr/themes/Protium/assets/icon/style.svg)
+}
+.icon-tags{
+display:inline-block;
+background-position:center center;
+background-repeat:no-repeat;
+background-image:url(/usr/themes/Protium/assets/icon/tags.svg)
+}
+.icon-time{
+display:inline-block;
+background-position:center center;
+background-repeat:no-repeat;
+background-image:url(/usr/themes/Protium/assets/icon/time.svg)
+}
