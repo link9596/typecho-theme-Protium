@@ -26,7 +26,7 @@ document.getElementById('fold').style.height='0px';//初始化
 
       <footer class="site-footer">
         <span class="site-footer-owner">Theme <a href="https://github.com/link9596">Protium</a>.</span>
-        <span class="site-footer-credits">Powered by<a href="https://github.com/link9596/tehydrogen/"> Link</a>.</span><br>
+        <span class="site-footer-credits">Powered by<a href="https://github.com/link9596/typecho-theme-Protium"> Link</a>.</span><br>
         <span class="site-footer-credits" style="font-size:12px">Already <span id="sitetime"></span> days.</span>
 
       </footer>
