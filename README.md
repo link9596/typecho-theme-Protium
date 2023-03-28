@@ -6,6 +6,6 @@
 
 如果你喜欢简洁干净，那个这款Typecho主题一定很适合你
 
-[演示站点](http://ducksga.ga)
+[演示站点](http://demo.atlinker.cn)
 
 ![preview](http://atlinker.cn/usrimg/2021-9-17-protium-preview.png)
